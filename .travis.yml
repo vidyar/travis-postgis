@@ -24,3 +24,10 @@ script: nosetests --verbose
 matrix:
   allow_failures:
     - python: 3.3
+notifications:
+     email:
+         recipients:
+             - vidya@shippable.com
+             - buildsampletest@gmail.com
+         on_success: change
+         on_failure: always
