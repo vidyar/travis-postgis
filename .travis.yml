@@ -7,10 +7,6 @@ python:
 # command to install dependencies
 install:
     - "pip install -r requirements.txt --use-mirrors"
-env:
- gloabl:
-   - secure: NcAshvX3Pnzs3QEpwxe1XClgEKljGus5Rb7EsZlJ9uzg+gpCWboVNcbzrra6cu2bvbXA3S4QP4Vend+WCUb3ZqQM2sETOJy7slGTCZgSgns2be1wdW8uCNvj5VXwI4hAINCwYONk1avYMADFUKDIt4IE3pPIoN9FdlVhZAhUWjyH4de2Owb4JCtkQAzuGNtI2srG8G8FD7WplMdA2QKAy2OAmwPfSTesVR+QyVen8M+HfYYTH78t9mKOSDm0jUHRwJhQndsceUvqPOIfP7XmiR+Y27jg4z/BnjmvrtIvkX/G7exhf0/OTn+Rrps5wvd4Pdy929FNEoRJ76AZoPOirQ==
-   - secure: nd6blC2cSkMtDLczOzG3GPeuXd8PLtv13CfMbr05kPx6o011Jol7C+Uoj3zb46BOCdSZ2dScPvOqz7E6+9yQ02Oi23RzvSKgSTqS6dZSvbSLDXOMHZdURnDn0aolwSTDjygxziPJQMNYxFV6jE0T5yCgDXilx51DAuy9tHLa6TLzSbbTzZn8lVGUS9bBiQiORoGFAC1Rgi7apAxvoE2zsYh2JHFJPQ+RoQXJhpWsq/No148ic7tg1+oJC5PE9GCAOzWIsuPJ1+atOVC9tR5laeYxTWkPn70ptyiLLjsHXDHzRZj1y9xpvO/09/7ZABlW4ppeRVusSksbg3fSlPZzVg==
 # database creation
 before_script:
   - echo $foo and $work
