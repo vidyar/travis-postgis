@@ -30,4 +30,4 @@ notifications:
          on_failure: always
 branches:
   only:
-    - dev01
+    - dev02
